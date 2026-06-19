@@ -131,3 +131,6 @@ Make sure the server is stopped (Ctrl + C), ensure your terminal is in the root 
 Bash
 rm -rf venv
 If you ever want to run the project again after deleting the environment, simply execute ./run_poc.sh. The script will notice the folder is missing, automatically create a new one, download all the fresh packages from your requirements.txt, and start the server.
+
+Chrome Browser extension
+go to chrome extensions and add the extension from the manifest.json path.
