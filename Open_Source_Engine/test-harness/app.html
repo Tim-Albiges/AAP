@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AAP Compliant Sandbox</title>
+    <script type="application/ld+json">
+    {
+      "@context": "http://localhost:8000/static/v1.jsonld",
+      "@type": "AgenticMap",
+      "elements": [
+        {
+          "targetSelector": "div#protocol-pay-button",
+          "intent": "submit_payment"
+        }
+      ]
+    }
+    </script>
+    <style>
+        .btn { padding: 12px 24px; background: #16a34a; color: white; cursor: pointer; border-radius: 4px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <h1>Standard-Compliant Target</h1>
+    <div id="protocol-pay-button" class="btn">Process Secure Transaction</div>
+</body>
+</html>

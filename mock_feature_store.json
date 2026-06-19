@@ -1,0 +1,19 @@
+{
+    "materialized_features": {},
+    "telemetry_logs": [
+        {
+            "url": "http://127.0.0.1:8000/demo/aap",
+            "eventType": "click",
+            "targetSelector": "div#protocol-pay-button",
+            "currentRole": "div",
+            "declaredIntent": "submit_payment"
+        },
+        {
+            "url": "http://127.0.0.1:8000/demo/aap",
+            "eventType": "click",
+            "targetSelector": "div#protocol-pay-button",
+            "currentRole": "div",
+            "declaredIntent": "submit_payment"
+        }
+    ]
+}

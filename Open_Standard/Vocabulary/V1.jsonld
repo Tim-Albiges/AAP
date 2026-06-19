@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "aap": "https://aap.protocol.org/ns/v1#",
+    "schema": "https://schema.org/",
+    "AgenticMap": "aap:AgenticMap",
+    "elements": {
+      "@id": "aap:elements",
+      "@container": "@set"
+    },
+    "intent": {
+      "@id": "aap:intent",
+      "@type": "@vocab"
+    },
+    "submit_payment": "aap:action:ecommerce:submit_payment",
+    "auth_login": "aap:action:auth:login"
+  }
+}
